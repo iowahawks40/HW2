@@ -1,23 +1,26 @@
 
 body {background: yellow; font-family: "Times New Roman";}
-h1 {text-align:center; font-weight:bold; font-style:italic;}
-h2 {text-align:center; font-weight:bold;}
-h3 {text-align:center; font-weight:bold;}
-ul {text-align:center; font-weight:bold; list-style-position: inside;}
-p{text-align:center; font-weight:bold;}
+h1 {font-weight:bold; font-style:italic;}
+h2 {font-weight:bold;}
+h3 {font-weight:bold;}
+ul {font-weight:bold; list-style-position: inside;}
+p{font-weight:bold;}
 img.displayed {display: block; margin-left:auto; margin-right:auto;}
-
-.container {width:900px;
-       margin:0 auto 0 auto;
-       padding:100px;
-       border:100px solid black;
-       }
 
 	   
 
-.center-justified {
-  text-align: justify;
-  text-justify: auto;
-  margin: 0 auto 0 auto;
-  width: 700 px;
+.resume {text-align:left;
+       width:650px;
+       margin:0 auto 0 auto;
+       padding:100px;
+       border:10px solid black;
+       
+}
+
+.index{text-align:center;
+	   width:900px;
+       margin:0 auto 0 auto;
+       padding:100px;
+       border:100px solid black;
+       
 }
